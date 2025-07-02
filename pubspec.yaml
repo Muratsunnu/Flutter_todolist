@@ -1,0 +1,42 @@
+name: to_do_list
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/images/logo.png
+    - assets/images/logo_edit.png
+    - assets/fonts/CreepsterCaps.ttf
+    - assets/fonts/Montserrat-VariableFont_wght.ttf
+
+  fonts:
+    - family: CreepsterCaps
+      fonts:
+        - asset: assets/fonts/CreepsterCaps.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-VariableFont_wght.ttf
+          
+
+  uses-material-design: true
